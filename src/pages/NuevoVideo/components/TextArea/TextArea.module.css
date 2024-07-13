@@ -1,0 +1,30 @@
+.contenedor_descripcion {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.contenedor_descripcion label {
+  display: block;
+  margin: 15px 0;
+  font-family: "Source Sans 3", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.contenedor_descripcion textarea {
+  font-family: "Source Sans 3", sans-serif;
+  height: 200px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #dedede;
+  border: 3px solid #ffffff;
+  background: transparent;
+  font-family: "Source Sans 3", sans-serif;
+  border-radius: 10px;
+}

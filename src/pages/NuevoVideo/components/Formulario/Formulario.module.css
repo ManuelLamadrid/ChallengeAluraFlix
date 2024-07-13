@@ -1,0 +1,46 @@
+.contenedor_formulario {
+  font-family: "Source Sans 3", sans-serif;
+  height: 800px;
+  padding: 0 50px;
+}
+
+.contenedor_formulario h3 {
+  padding: 20px;
+  text-align: center;
+  letter-spacing: 10px;
+  word-spacing: 10px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 24px;
+  border-top: 3px solid #262626;
+  border-bottom: 3px solid #262626;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.contenedor_formulario form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Mobile: hasta 600px */
+@media (max-width: 768px) {
+  .contenedor_formulario {
+    height: 100%;
+    padding: 0 20px;
+  }
+
+  .contenedor_formulario form div {
+    width: 100%;
+  }
+
+  .contenedor_formulario form div:nth-last-child(-n + 2) {
+    width: 180px;
+    margin: 0 auto;
+  }
+
+  .contenedor_formulario form {
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+}

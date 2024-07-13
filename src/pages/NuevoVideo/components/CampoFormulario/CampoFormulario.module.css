@@ -1,0 +1,51 @@
+.campo_formulario {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.campo_formulario label {
+  display: block;
+  line-height: 24px;
+  text-align: left;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+.campo_formulario input {
+  font-size: 20px;
+  width: 100%;
+  padding: 20px 0px;
+  border: 3px solid #ffffff;
+  font-weight: 600;
+  line-height: 24px;
+  background: transparent;
+  font-family: "Source Sans 3", sans-serif;
+  color: #e9e9e9;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.campo_formulario input[type="submit"], .campo_formulario input[type="reset"]{
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 20px 0;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.campo_formulario input[type="submit"] {
+  background: steelblue;
+  border: 3px solid #2271d1;
+}
+
+.campo_formulario input[type="reset"] {
+  background-color: gainsboro;
+  border: 3px solid #030303;
+}
